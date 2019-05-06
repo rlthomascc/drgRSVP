@@ -1,0 +1,34 @@
+body {
+    background-image: url("https://images8.alphacoders.com/100/thumb-1920-1004780.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: verdana;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.945);
+    width: 50%;
+    margin: auto;
+    padding: 30px 30px 60px 30px;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+
+#formHeader {
+    color: #cda135;
+}
+
+.outputContainer {
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px 60px 30px;
+    background-color: rgba(255, 255, 255, 0.945);
+    width: 50%;
+    margin-top: 15%;
+    color: #cda135;
+    border-radius: 25px;
+}
