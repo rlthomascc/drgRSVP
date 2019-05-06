@@ -14,7 +14,7 @@ app.post('/rsvp', (req, res) => {
   res.send('data has been sent from server to database')
 });
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 80;
 
 app.listen(port, function() {
   console.log(`listening on port ${port}`);

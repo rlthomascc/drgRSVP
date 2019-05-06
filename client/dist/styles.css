@@ -14,7 +14,8 @@ form {
     margin: auto;
     padding: 30px 30px 60px 30px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 75px;
+    margin-bottom: 100px;
     border-radius: 50px;
 }
 
@@ -28,7 +29,8 @@ form {
     padding: 30px 30px 60px 30px;
     background-color: rgba(255, 255, 255, 0.945);
     width: 50%;
-    margin-top: 15%;
+    margin-top: 25px;
+    margin-bottom: 100px;
     color: #cda135;
     border-radius: 25px;
 }
