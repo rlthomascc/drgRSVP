@@ -1,12 +1,21 @@
 body {
-    background-image: url("https://images8.alphacoders.com/100/thumb-1920-1004780.jpg");
+    background-image: url("http://www.wallpapers13.com/wp-content/uploads/2017/11/Aladdin-and-the-spirit-of-magic-lamp-Disney-Wallpaper-Hd-2560x1600-1920x1080.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
     font-family: verdana;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  body {
+    background-image: url("https://wallpapers.moviemania.io/phone/movie/812/2dc4a8/aladdin-phone-wallpaper.jpg?w=1536&h=2732");
+  }
 
 form {
     background-color: rgba(255, 255, 255, 0.945);
