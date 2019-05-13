@@ -16,6 +16,7 @@ body {
   body {
     background-image: url("https://wallpapers.moviemania.io/phone/movie/812/2dc4a8/aladdin-phone-wallpaper.jpg?w=1536&h=2732");
   }
+}
 
 form {
     background-color: rgba(255, 255, 255, 0.945);
@@ -42,4 +43,39 @@ form {
     margin-bottom: 100px;
     color: #cda135;
     border-radius: 25px;
+}
+
+#totalCount {
+  color: red;
+}
+
+#Daniel_Del_Real {
+  color: #e60e16;
+}
+#Indalecio_Andy_Del_Real {
+  color: #8cd3f6;
+}
+#Don_Wright {
+  color: #f59300;
+}
+#Chris–Sauls {
+  color: #ffef00;
+}
+#Michael_Meneses {
+  color: #009846;
+}
+#Carlos_Gutierrez {
+  color: #00a0e4;
+}
+#Joseph_Bondi {
+  color: #232e84;
+}
+#Amanda_Stallcup {
+  color: #e7007e;
+}
+#Patricia_Servin-Martinez {
+  color: #cda135;
+}
+#Jennifer_Edwards {
+  color: #bef800;
 }

@@ -6,7 +6,8 @@
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
     "packagejson": "npm install --only=dev",
-    "start": "webpack && node server/index.js"
+    "start": "webpack && node server/index.js",
+    "seed": "node database/seeds/seedscript.js"
   },
   "author": "Randy Thomas",
   "license": "ISC",
