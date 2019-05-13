@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-// require('dotenv').config();
-mongoose.connect('mongodb://localhost/delrealgroup/');
-// mongoose.connect('mongodb://TheDelRealGroup:'+ process.env.pass +'@ds245357.mlab.com:45357/thedelrealgroup')
+require('dotenv').config();
+// mongoose.connect('mongodb://localhost/delrealgroup/');
+mongoose.connect('mongodb://TheDelRealGroup:'+ process.env.pass +'@ds245357.mlab.com:45357/thedelrealgroup')
 
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

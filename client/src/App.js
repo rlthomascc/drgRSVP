@@ -10,6 +10,7 @@ class App extends Component {
         router: 'home',
         agent: '',
         guests: 0,
+        total: 0,
         }
     }
 
@@ -17,6 +18,7 @@ class App extends Component {
         axios.get('/register')
         .then(res => {
             this.setState({
+                total: res.data.length,
                 guests: res.data.reduce((acc, elem) => {
                     return acc + elem.guests
                 }, 0)
@@ -37,11 +39,11 @@ class App extends Component {
 
 
     render() {
-        const {router, agent, guests} = this.state
+        const {router, agent, guests, total} = this.state
         if (router === 'home') {
             return (
                 <div>
-                <Form route={this.changeRoute.bind(this)} guests={guests}/>
+                <Form route={this.changeRoute.bind(this)} guests={guests} total={total}/>
             </div>
         );
         }

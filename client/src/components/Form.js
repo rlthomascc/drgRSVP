@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Autosuggest from 'react-autosuggest';
 
 const Form = (props) => {
 
@@ -13,14 +14,14 @@ const Form = (props) => {
             guests: e.target.guests.value,
         })
 
-        axios.patch('/invites', {
-            name: e.target.fullname.value,
-            guests: e.target.guests.value,
-        })
-        .then(res => {
-            console.log(res)
-        })
-        .catch(err => { console.log(err) })
+        // axios.patch('/invites', {
+        //     name: e.target.fullname.value,
+        //     guests: e.target.guests.value,
+        // })
+        // .then(res => {
+        //     console.log(res)
+        // })
+        // .catch(err => { console.log(err) })
 
         props.route('', e.target.agent.value);
     }
@@ -31,7 +32,7 @@ const Form = (props) => {
                 <img src="/photos/smaller.png" width="200px"/>
                 <p className="h2 font-weight-bold">Del Real Group Registration for <br />
                 Client Appreciation Event 2019</p>
-                <p id="totalCount" className="font-weight-bold">Total Registered Guests: {props.guests}</p>
+                <p id="totalCount" className="font-weight-bold">Total Registed Guests: {props.total} | Total Guests In Attendance: {props.guests}</p>
                 <br />
             </div>
 
